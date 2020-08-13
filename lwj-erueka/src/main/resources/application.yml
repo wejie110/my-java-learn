@@ -1,0 +1,20 @@
+server:
+  port: 8762
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: lwj-erueka
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+  server:
+      peerEurekaNodesUpdateIntervalMs: 60000
+      enableSelfPreservation: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

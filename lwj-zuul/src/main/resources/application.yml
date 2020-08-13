@@ -1,0 +1,38 @@
+server:
+  #https�����˿�
+  port: 9527
+#  http-to-https-Port: 9527
+  #����SSL��֤https
+#  ssl:
+#    key-store: classpath:easypos.jks
+#    key-store-password: KG8Vlfi9
+#    key-store-type: JKS
+#    key-alias: alias
+#    enabled: false
+  servlet:
+    context-path: /
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+spring:
+  application:
+    name: lwj-zuul
+
+#应该所有服务都不能直接访问,需要zuul网关服务访问
+zuul:
+  routes:
+    gateway:
+      path: /zuul.act
+      service_id: lwj-zuul
+  semaphore:
+    max-semaphores: 6000
+eureka:
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      eurekaServiceUrlPollIntervalSeconds: 60
