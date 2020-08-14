@@ -12,6 +12,7 @@
     <groupId>com.springcloud.lwj</groupId>
     <artifactId>springCloudLWJ</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <!--在构建项目的时候，不需要深入每个子module去单独构建，只需在该项目下的pom.xml构建，就会完成对子module的构建-->
     <modules>

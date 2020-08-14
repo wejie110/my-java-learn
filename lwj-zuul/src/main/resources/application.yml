@@ -1,8 +1,6 @@
 server:
-  #https�����˿�
   port: 9527
 #  http-to-https-Port: 9527
-  #����SSL��֤https
 #  ssl:
 #    key-store: classpath:easypos.jks
 #    key-store-password: KG8Vlfi9

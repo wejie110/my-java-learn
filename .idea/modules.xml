@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lwj-erueka/lwj-erueka.iml" filepath="$PROJECT_DIR$/lwj-erueka/lwj-erueka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lwj-zuul/lwj-zuul.iml" filepath="$PROJECT_DIR$/lwj-zuul/lwj-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloudLWJ.iml" filepath="$PROJECT_DIR$/springCloudLWJ.iml" />
+    </modules>
+  </component>
+</project>
