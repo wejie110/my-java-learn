@@ -32,5 +32,5 @@ eureka:
     leaseExpirationDurationInSeconds: 30
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:123456@localhost:8761/eureka/
       eurekaServiceUrlPollIntervalSeconds: 60
