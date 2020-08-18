@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lwj-erueka" />
+        <module name="lwj-user" />
         <module name="lwj-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lwj-erueka" target="1.8" />
+      <module name="lwj-user" target="1.8" />
       <module name="lwj-zuul" target="1.8" />
       <module name="springCloudLWJ" target="1.8" />
     </bytecodeTargetLevel>

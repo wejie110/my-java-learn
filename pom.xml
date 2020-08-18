@@ -18,6 +18,7 @@
     <modules>
         <module>lwj-erueka</module>
         <module>lwj-zuul</module>
+        <module>lwj-user</module>
     </modules>
 
 
