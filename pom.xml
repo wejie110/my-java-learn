@@ -19,6 +19,8 @@
         <module>lwj-erueka</module>
         <module>lwj-zuul</module>
         <module>lwj-user</module>
+        <module>lwj-product</module>
+        <module>lwj-model</module>
     </modules>
 
 

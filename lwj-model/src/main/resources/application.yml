@@ -1,0 +1,22 @@
+server:
+  port: 9003
+  servlet:
+    context-path: /
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+spring:
+  application:
+    name: lwj-model
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/
+      eurekaServiceUrlPollIntervalSeconds: 60
