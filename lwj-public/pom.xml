@@ -8,22 +8,13 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.example.product</groupId>
-	<artifactId>lwj-product</artifactId>
+	<groupId>com.example.public</groupId>
+	<artifactId>lwj-public</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lwj-product</name>
-	<description>用户</description>
+	<name>lwj-public</name>
+	<description>公用资源</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.example.public</groupId>
-			<artifactId>lwj-public</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

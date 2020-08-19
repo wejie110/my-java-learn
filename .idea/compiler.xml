@@ -9,6 +9,7 @@
         <module name="lwj-erueka" />
         <module name="lwj-model" />
         <module name="lwj-product" />
+        <module name="lwj-public" />
         <module name="lwj-user" />
         <module name="lwj-zuul" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="lwj-erueka" target="1.8" />
       <module name="lwj-model" target="1.8" />
       <module name="lwj-product" target="1.8" />
+      <module name="lwj-public" target="1.8" />
       <module name="lwj-user" target="1.8" />
       <module name="lwj-zuul" target="1.8" />
       <module name="springCloudLWJ" target="1.8" />

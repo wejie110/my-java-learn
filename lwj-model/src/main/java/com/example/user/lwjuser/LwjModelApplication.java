@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class LwjProductApplication {
+public class LwjModelApplication {
     public static void main(String[] args){
         try {
-            SpringApplication.run(LwjProductApplication.class,args);
+            SpringApplication.run(LwjModelApplication.class,args);
         } catch (Exception e) {
             e.printStackTrace();
         }
