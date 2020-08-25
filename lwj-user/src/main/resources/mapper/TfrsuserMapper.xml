@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.user.lwjuser.mapper.TfrsuserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.user.lwjuser.entity.Tfrsuser">
+        <id column="UserID" property="UserID" />
+        <result column="UserCode" property="UserCode" />
+        <result column="UserName" property="UserName" />
+        <result column="UserType" property="UserType" />
+        <result column="LoginCheckType" property="LoginCheckType" />
+        <result column="Passwd" property="Passwd" />
+        <result column="IsEnable" property="IsEnable" />
+        <result column="BgnDate" property="BgnDate" />
+        <result column="EndDate" property="EndDate" />
+        <result column="RightCtrlOrgCode" property="RightCtrlOrgCode" />
+        <result column="ActiveDay" property="ActiveDay" />
+        <result column="Language" property="Language" />
+        <result column="NumFormat" property="NumFormat" />
+        <result column="DateFormat" property="DateFormat" />
+        <result column="TimeZone" property="TimeZone" />
+        <result column="IsLimited" property="IsLimited" />
+        <result column="LogonCount" property="LogonCount" />
+        <result column="EmpCode" property="EmpCode" />
+        <result column="IsPreset" property="IsPreset" />
+        <result column="IsDeveloper" property="IsDeveloper" />
+        <result column="CrtUserID" property="CrtUserID" />
+        <result column="CrtTime" property="CrtTime" />
+        <result column="IsActivation" property="IsActivation" />
+        <result column="EmpId" property="EmpId" />
+        <result column="RightCtrlOrgID" property="RightCtrlOrgID" />
+        <result column="UserMail" property="UserMail" />
+        <result column="PasswdUdp" property="PasswdUdp" />
+        <result column="UpdateTime" property="UpdateTime" />
+        <result column="IsBindToken" property="IsBindToken" />
+        <result column="IsUseToken" property="IsUseToken" />
+        <result column="TokenCode" property="TokenCode" />
+    </resultMap>
+
+</mapper>

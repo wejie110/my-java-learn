@@ -28,6 +28,11 @@
     <properties>
         <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
+        <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
+        <druid-spring-boot-starter.version>1.1.20</druid-spring-boot-starter.version>
+        <mybatis-plus-boot-starter.version>3.1.0</mybatis-plus-boot-starter.version>
+        <mybatis-plus-generator.version>3.1.0</mybatis-plus-generator.version>
+        <lombok.version>1.18.8</lombok.version>
     </properties>
 
 
@@ -40,6 +45,34 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--mybatis plus 相关配置-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-boot-starter.version}</version>
+            </dependency>
+            <!-- mybatis plus 代码生成器依赖 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus-generator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
