@@ -4,37 +4,37 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.example.user.lwjuser.entity.Tfrsuser">
-        <id column="UserID" property="UserID" />
-        <result column="UserCode" property="UserCode" />
-        <result column="UserName" property="UserName" />
-        <result column="UserType" property="UserType" />
-        <result column="LoginCheckType" property="LoginCheckType" />
-        <result column="Passwd" property="Passwd" />
-        <result column="IsEnable" property="IsEnable" />
-        <result column="BgnDate" property="BgnDate" />
-        <result column="EndDate" property="EndDate" />
-        <result column="RightCtrlOrgCode" property="RightCtrlOrgCode" />
-        <result column="ActiveDay" property="ActiveDay" />
-        <result column="Language" property="Language" />
-        <result column="NumFormat" property="NumFormat" />
-        <result column="DateFormat" property="DateFormat" />
-        <result column="TimeZone" property="TimeZone" />
-        <result column="IsLimited" property="IsLimited" />
-        <result column="LogonCount" property="LogonCount" />
-        <result column="EmpCode" property="EmpCode" />
-        <result column="IsPreset" property="IsPreset" />
-        <result column="IsDeveloper" property="IsDeveloper" />
-        <result column="CrtUserID" property="CrtUserID" />
-        <result column="CrtTime" property="CrtTime" />
-        <result column="IsActivation" property="IsActivation" />
-        <result column="EmpId" property="EmpId" />
-        <result column="RightCtrlOrgID" property="RightCtrlOrgID" />
-        <result column="UserMail" property="UserMail" />
-        <result column="PasswdUdp" property="PasswdUdp" />
-        <result column="UpdateTime" property="UpdateTime" />
-        <result column="IsBindToken" property="IsBindToken" />
-        <result column="IsUseToken" property="IsUseToken" />
-        <result column="TokenCode" property="TokenCode" />
+        <id column="UserID" property="userID" />
+        <result column="UserCode" property="userCode" />
+        <result column="UserName" property="userName" />
+        <result column="UserType" property="userType" />
+        <result column="LoginCheckType" property="loginCheckType" />
+        <result column="Passwd" property="passwd" />
+        <result column="IsEnable" property="isEnable" />
+        <result column="BgnDate" property="bgnDate" />
+        <result column="EndDate" property="endDate" />
+        <result column="RightCtrlOrgCode" property="rightCtrlOrgCode" />
+        <result column="ActiveDay" property="activeDay" />
+        <result column="Language" property="language" />
+        <result column="NumFormat" property="numFormat" />
+        <result column="DateFormat" property="dateFormat" />
+        <result column="TimeZone" property="timeZone" />
+        <result column="IsLimited" property="isLimited" />
+        <result column="LogonCount" property="logonCount" />
+        <result column="EmpCode" property="empCode" />
+        <result column="IsPreset" property="isPreset" />
+        <result column="IsDeveloper" property="isDeveloper" />
+        <result column="CrtUserID" property="crtUserID" />
+        <result column="CrtTime" property="crtTime" />
+        <result column="IsActivation" property="isActivation" />
+        <result column="EmpId" property="empId" />
+        <result column="RightCtrlOrgID" property="rightCtrlOrgID" />
+        <result column="UserMail" property="userMail" />
+        <result column="PasswdUdp" property="passwdUdp" />
+        <result column="UpdateTime" property="updateTime" />
+        <result column="IsBindToken" property="isBindToken" />
+        <result column="IsUseToken" property="isUseToken" />
+        <result column="TokenCode" property="tokenCode" />
     </resultMap>
 
 </mapper>

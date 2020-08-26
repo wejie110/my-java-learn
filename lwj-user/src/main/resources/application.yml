@@ -9,10 +9,17 @@ server:
 spring:
   application:
     name: lwj-user
-
+  datasource:
+      url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf-8
+      username: root
+      password: root
+      # 使用druid数据源
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
   instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
     prefer-ip-address: true
     leaseRenewalIntervalInSeconds: 10
     leaseExpirationDurationInSeconds: 30

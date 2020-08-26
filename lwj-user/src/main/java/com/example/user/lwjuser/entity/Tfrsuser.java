@@ -26,102 +26,102 @@ public class Tfrsuser extends Model<Tfrsuser> {
     private static final long serialVersionUID = 1L;
 
     @TableId("UserID")
-    private String UserID;
+    private String userID;
 
     @TableField("UserCode")
-    private String UserCode;
+    private String userCode;
 
     @TableField("UserName")
-    private String UserName;
+    private String userName;
 
     @TableField("UserType")
-    private String UserType;
+    private String userType;
 
     @TableField("LoginCheckType")
-    private String LoginCheckType;
+    private String loginCheckType;
 
     @TableField("Passwd")
-    private String Passwd;
+    private String passwd;
 
     @TableField("IsEnable")
-    private String IsEnable;
+    private String isEnable;
 
     @TableField("BgnDate")
-    private LocalDateTime BgnDate;
+    private LocalDateTime bgnDate;
 
     @TableField("EndDate")
-    private LocalDateTime EndDate;
+    private LocalDateTime endDate;
 
     @TableField("RightCtrlOrgCode")
-    private String RightCtrlOrgCode;
+    private String rightCtrlOrgCode;
 
     @TableField("ActiveDay")
-    private BigDecimal ActiveDay;
+    private BigDecimal activeDay;
 
     @TableField("Language")
-    private String Language;
+    private String language;
 
     @TableField("NumFormat")
-    private String NumFormat;
+    private String numFormat;
 
     @TableField("DateFormat")
-    private String DateFormat;
+    private String dateFormat;
 
     @TableField("TimeZone")
-    private String TimeZone;
+    private String timeZone;
 
     @TableField("IsLimited")
-    private String IsLimited;
+    private String isLimited;
 
     @TableField("LogonCount")
-    private BigDecimal LogonCount;
+    private BigDecimal logonCount;
 
     @TableField("EmpCode")
-    private String EmpCode;
+    private String empCode;
 
     @TableField("IsPreset")
-    private String IsPreset;
+    private String isPreset;
 
     @TableField("IsDeveloper")
-    private String IsDeveloper;
+    private String isDeveloper;
 
     @TableField("CrtUserID")
-    private String CrtUserID;
+    private String crtUserID;
 
     @TableField("CrtTime")
-    private LocalDateTime CrtTime;
+    private LocalDateTime crtTime;
 
     @TableField("IsActivation")
-    private String IsActivation;
+    private String isActivation;
 
     @TableField("EmpId")
-    private String EmpId;
+    private String empId;
 
     @TableField("RightCtrlOrgID")
-    private String RightCtrlOrgID;
+    private String rightCtrlOrgID;
 
     @TableField("UserMail")
-    private String UserMail;
+    private String userMail;
 
     @TableField("PasswdUdp")
-    private String PasswdUdp;
+    private String passwdUdp;
 
     @TableField("UpdateTime")
-    private LocalDateTime UpdateTime;
+    private LocalDateTime updateTime;
 
     @TableField("IsBindToken")
-    private String IsBindToken;
+    private String isBindToken;
 
     @TableField("IsUseToken")
-    private String IsUseToken;
+    private String isUseToken;
 
     @TableField("TokenCode")
-    private String TokenCode;
+    private String tokenCode;
 
 
     @Override
     protected Serializable pkVal() {
-        return this.UserID;
+        return this.userID;
     }
 
 }

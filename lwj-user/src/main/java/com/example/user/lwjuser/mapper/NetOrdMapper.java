@@ -1,6 +1,6 @@
 package com.example.user.lwjuser.mapper;
 
-import com.example.user.lwjuser.entity.Tfrsuser;
+import com.example.user.lwjuser.entity.NetOrd;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -10,9 +10,9 @@ import org.apache.ibatis.annotations.Mapper;
  * </p>
  *
  * @author lwj
- * @since 2020-08-25
+ * @since 2020-08-26
  */
 @Mapper
-public interface TfrsuserMapper extends BaseMapper<Tfrsuser> {
+public interface NetOrdMapper extends BaseMapper<NetOrd> {
 
 }

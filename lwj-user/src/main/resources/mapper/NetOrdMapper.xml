@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.user.lwjuser.mapper.NetOrdMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.user.lwjuser.entity.NetOrd">
+        <id column="ord_no" property="ordNo" />
+        <result column="plan_no" property="planNo" />
+        <result column="group_no" property="groupNo" />
+        <result column="group_num" property="groupNum" />
+        <result column="is_all_join" property="isAllJoin" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="deliver_time" property="deliverTime" />
+        <result column="app_type" property="appType" />
+        <result column="ord_type" property="ordType" />
+        <result column="shop_code" property="shopCode" />
+        <result column="shop_name" property="shopName" />
+        <result column="shop_mobile" property="shopMobile" />
+        <result column="open_time" property="openTime" />
+        <result column="close_time" property="closeTime" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+        <result column="shop_address" property="shopAddress" />
+        <result column="wh_code" property="whCode" />
+        <result column="open_id" property="openId" />
+        <result column="mobile" property="mobile" />
+        <result column="vip_faceno" property="vipFaceno" />
+        <result column="ord_status" property="ordStatus" />
+        <result column="dis_status" property="disStatus" />
+        <result column="total_plu" property="totalPlu" />
+        <result column="total" property="total" />
+        <result column="package_fee" property="packageFee" />
+        <result column="logis_fee" property="logisFee" />
+        <result column="total_paid" property="totalPaid" />
+        <result column="total_recv" property="totalRecv" />
+        <result column="total_dsc_mch" property="totalDscMch" />
+        <result column="total_dsc_pt" property="totalDscPt" />
+        <result column="service_fee" property="serviceFee" />
+        <result column="logis_type" property="logisType" />
+        <result column="logis_code" property="logisCode" />
+        <result column="logis_name" property="logisName" />
+        <result column="logis_bill_no" property="logisBillNo" />
+        <result column="fetch_code" property="fetchCode" />
+        <result column="cust_name" property="custName" />
+        <result column="cust_phone" property="custPhone" />
+        <result column="cust_address" property="custAddress" />
+        <result column="cust_longitude" property="custLongitude" />
+        <result column="cust_latitude" property="custLatitude" />
+        <result column="shipper_name" property="shipperName" />
+        <result column="shipper_phone" property="shipperPhone" />
+        <result column="invoice_title" property="invoiceTitle" />
+        <result column="tax_id_no" property="taxIdNo" />
+        <result column="clk_code" property="clkCode" />
+        <result column="clk_name" property="clkName" />
+        <result column="csh_code" property="cshCode" />
+        <result column="csh_name" property="cshName" />
+        <result column="cust_remark" property="custRemark" />
+        <result column="remark" property="remark" />
+        <result column="deliver_sel_date" property="deliverSelDate" />
+        <result column="deliver_sel_time" property="deliverSelTime" />
+        <result column="uuid" property="uuid" />
+    </resultMap>
+
+</mapper>
