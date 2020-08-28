@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.user.lwjuser.mapper.ShopStkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.user.lwjuser.entity.ShopStk">
+        <id column="shop_code" property="shopCode" />
+        <result column="plu_id" property="pluId" />
+        <result column="plu_code" property="pluCode" />
+        <result column="bar_code" property="barCode" />
+        <result column="ex_plu_code" property="exPluCode" />
+        <result column="stk_count" property="stkCount" />
+        <result column="snap_time" property="snapTime" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
