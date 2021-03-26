@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lwj-erueka" />
-        <module name="lwj-model" />
         <module name="lwj-product" />
+        <module name="lwj-model" />
+        <module name="lwj-erueka" />
         <module name="lwj-public" />
         <module name="lwj-user" />
         <module name="lwj-zuul" />
@@ -23,5 +23,15 @@
       <module name="lwj-zuul" target="1.8" />
       <module name="springCloudLWJ" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lwj-erueka" options="-parameters" />
+      <module name="lwj-model" options="-parameters" />
+      <module name="lwj-product" options="-parameters" />
+      <module name="lwj-public" options="-parameters" />
+      <module name="lwj-user" options="-parameters" />
+      <module name="lwj-zuul" options="-parameters" />
+    </option>
   </component>
 </project>

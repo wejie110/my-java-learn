@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8c2342a-2404-4e47-9c60-9d43432a21e4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.springframework.cloud</find>
+      <find>spring-cloud.version</find>
+      <find>spring-boot-starter</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\myjavaprojects\springCloudLWJ\lwj-user</dir>
+      <dir>F:\myjavaprojects\springCloudLWJ</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lwj" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/work softwore/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\work softwore\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nMQgJIZBHvlDjO0SHB09uUX0TM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\springCloudLWJ\.idea" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myjavaprojects\springCloudLWJ\lwj-product\src\main\java\com\example\user\lwjuser\lambdalearn" />
+      <recent name="F:\myjavaprojects\springCloudLWJ" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="MethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.user.lwjuser.lambdalearn.MethodReferences" />
+      <module name="lwj-product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.lwjuser.lambdalearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.user.lwjuser.hashmaplearn.MyTest" />
+      <module name="lwj-product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.lwjuser.hashmaplearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.user.lwjuser.lambdalearn.RecursiveFactorial" />
+      <module name="lwj-product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.lwjuser.lambdalearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnableMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.user.lwjuser.lambdalearn.RunnableMethodReference" />
+      <module name="lwj-product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.lwjuser.lambdalearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LwjEruekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lwj-erueka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.erueka.lwjerueka.LwjEruekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LwjProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lwj-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.lwjuser.LwjProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LwjUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lwj-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.lwjuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.lwjuser.LwjUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LwjZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lwj-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.lwjzuul.LwjZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RecursiveFactorial" />
+      <item itemvalue="Application.MethodReferences" />
+      <item itemvalue="Application.RunnableMethodReference" />
+      <item itemvalue="Spring Boot.LwjEruekaApplication" />
+      <item itemvalue="Spring Boot.LwjZuulApplication" />
+      <item itemvalue="Spring Boot.LwjProductApplication" />
+      <item itemvalue="Spring Boot.LwjUserApplication" />
+      <item itemvalue="Application.MyTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.RunnableMethodReference" />
+        <item itemvalue="Application.MethodReferences" />
+        <item itemvalue="Application.RecursiveFactorial" />
+        <item itemvalue="Spring Boot.LwjUserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8c2342a-2404-4e47-9c60-9d43432a21e4" name="Default" comment="" />
+      <created>1597109473776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597109473776</updated>
+      <workItem from="1597109475576" duration="7615000" />
+      <workItem from="1597127580553" duration="1879000" />
+      <workItem from="1597138489737" duration="1277000" />
+      <workItem from="1597139857780" duration="853000" />
+      <workItem from="1597194150614" duration="918000" />
+      <workItem from="1597195121422" duration="901000" />
+      <workItem from="1597196063023" duration="1227000" />
+      <workItem from="1597211808639" duration="1944000" />
+      <workItem from="1597223817428" duration="9000" />
+      <workItem from="1597223851911" duration="630000" />
+      <workItem from="1597224566030" duration="1590000" />
+      <workItem from="1597280500045" duration="2132000" />
+      <workItem from="1597301880047" duration="77000" />
+      <workItem from="1597308215429" duration="5943000" />
+      <workItem from="1597384651790" duration="7245000" />
+      <workItem from="1597742143051" duration="10101000" />
+      <workItem from="1598236811023" duration="5651000" />
+      <workItem from="1598256663714" duration="2986000" />
+      <workItem from="1598332315422" duration="4489000" />
+      <workItem from="1598347331935" duration="10626000" />
+      <workItem from="1598431007798" duration="10558000" />
+      <workItem from="1598606951810" duration="327000" />
+      <workItem from="1599790853488" duration="3062000" />
+      <workItem from="1611197593871" duration="1374000" />
+      <workItem from="1611226112690" duration="3676000" />
+      <workItem from="1612405112030" duration="3083000" />
+      <workItem from="1615877598328" duration="1380000" />
+    </task>
+    <task id="LOCAL-00001" summary="wejie110">
+      <created>1597224443551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597224443551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="wejie110">
+      <created>1597225422012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597225422012</updated>
+    </task>
+    <task id="LOCAL-00003" summary="wejie110">
+      <created>1597225506981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597225506981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="wejie110">
+      <created>1597282669597</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597282669597</updated>
+    </task>
+    <task id="LOCAL-00005" summary="wejie110">
+      <created>1597396510488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597396510488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wejie110  配置security">
+      <created>1597743661536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597743661537</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wejie110  添加微服务user">
+      <created>1597744674976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597744674976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wejie110  添加微服务product  模板model">
+      <created>1597808850750</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597808850750</updated>
+    </task>
+    <task id="LOCAL-00009" summary="wejie110  添加公共服务">
+      <created>1597830502297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597830502297</updated>
+    </task>
+    <task id="LOCAL-00010" summary="wejie110  添加公共服务">
+      <created>1598317760938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598317760938</updated>
+    </task>
+    <task id="LOCAL-00011" summary="wejie110  简单接口调用测试">
+      <created>1598433867349</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598433867349</updated>
+    </task>
+    <task id="LOCAL-00012" summary="wejie110  mybatis curd操作学习">
+      <created>1598607025560</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598607025560</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="lwj 0812" />
+    <MESSAGE value="wejie110" />
+    <MESSAGE value="wejie110  配置security" />
+    <MESSAGE value="wejie110  添加微服务user" />
+    <MESSAGE value="wejie110  添加微服务product  模板model" />
+    <MESSAGE value="wejie110  添加公共服务" />
+    <MESSAGE value="wejie110  简单接口调用测试" />
+    <MESSAGE value="wejie110  mybatis curd操作学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="wejie110  mybatis curd操作学习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="183" key="#Inspections" timestamp="1611227546062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="183" key="#Inspections/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611227546062" />
+    <state x="-1608" y="0" key="#Project_Structure" timestamp="1611203555486">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1608" y="0" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1611203555486" />
+    <state width="1867" height="185" key="GridCell.Tab.0.bottom" timestamp="1615880757460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="185" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615880757460" />
+    <state width="1867" height="185" key="GridCell.Tab.0.center" timestamp="1615880757460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="185" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615880757460" />
+    <state width="1867" height="185" key="GridCell.Tab.0.left" timestamp="1615880757460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="185" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615880757460" />
+    <state width="1867" height="185" key="GridCell.Tab.0.right" timestamp="1615880757460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="185" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615880757460" />
+    <state width="1867" height="42" key="GridCell.Tab.1.bottom" timestamp="1611276833474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="42" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611276833474" />
+    <state width="1867" height="42" key="GridCell.Tab.1.center" timestamp="1611276833474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="42" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611276833474" />
+    <state width="1867" height="42" key="GridCell.Tab.1.left" timestamp="1611276833474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="42" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611276833474" />
+    <state width="1867" height="42" key="GridCell.Tab.1.right" timestamp="1611276833474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="42" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611276833474" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lwj-product/src/main/java/com/example/user/lwjuser/hashmaplearn/MyTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
