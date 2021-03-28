@@ -14,7 +14,7 @@ class Describe {
 
 /**
  * @author wejie110
- * 方法引用组成：类名或对象名，后面跟 :: [^4]，然后跟方法名称
+ * 方法引用组成：类名或对象名，后面跟 :: [^4]，然后跟方法名称，，
  */
 public class MethodReferences {
     static void hello(String name) { // [3]
