@@ -7,6 +7,7 @@ import com.example.user.lwjuser.mapper.NetOrdMapper;
 import com.example.user.lwjuser.model.GroupOrdReqModel;
 import com.example.user.lwjuser.service.NetOrdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.user.lwjuser.service.ShopStkService;
 import com.google.common.base.Preconditions;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,9 @@ public class NetOrdServiceImpl extends ServiceImpl<NetOrdMapper, NetOrd> impleme
     @Autowired
     NetOrdMapper netOrdMapper;
 
+    @Autowired
+    ShopStkService shopStkService;
+
 
     @Override
     public List<NetOrd> getGroupOrders(GroupOrdReqModel reqModel) {
@@ -44,7 +48,7 @@ public class NetOrdServiceImpl extends ServiceImpl<NetOrdMapper, NetOrd> impleme
             shopStk.setPluId(model.getOrdNo());
             shopStk.setShopCode(model.getShopCode());
             shopStk.setPluCode("1");
-            shopStk.insert();
+            shopStkService.saveOrUpdate(shopStk);
         });
         System.out.println("----------------写入完成");
         return orders; //ar 领域模型模式 Active Record(活动记录)

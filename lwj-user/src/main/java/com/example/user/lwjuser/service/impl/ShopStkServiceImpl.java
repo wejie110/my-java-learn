@@ -1,10 +1,14 @@
 package com.example.user.lwjuser.service.impl;
 
+import com.example.user.lwjuser.annotation.TransactionalService;
 import com.example.user.lwjuser.entity.ShopStk;
 import com.example.user.lwjuser.mapper.ShopStkMapper;
 import com.example.user.lwjuser.service.ShopStkService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ReflectionUtils;
+
+import java.lang.reflect.AnnotatedElement;
 
 /**
  * <p>
@@ -14,7 +18,13 @@ import org.springframework.stereotype.Service;
  * @author lwj
  * @since 2020-08-26
  */
-@Service
+@TransactionalService
 public class ShopStkServiceImpl extends ServiceImpl<ShopStkMapper, ShopStk> implements ShopStkService {
 
+    public static void main(String[] args){
+        AnnotatedElement annotatedElement = ShopStkServiceImpl.class;
+        TransactionalService transactionalService = annotatedElement.getAnnotation(TransactionalService.class);
+//        ReflectionUtils.doWithMethods(TransactionalService.class,
+//                method -> System.out.printf());
+    }
 }
