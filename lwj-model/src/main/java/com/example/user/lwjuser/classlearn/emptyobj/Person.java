@@ -15,7 +15,7 @@ public class Person {
     }
     @Override
     public String toString(){
-        return "real persion:"+first+last+address;
+        return "real person:"+first+last+address;
     }
 
     public static class NullPerson extends Person implements Null {
