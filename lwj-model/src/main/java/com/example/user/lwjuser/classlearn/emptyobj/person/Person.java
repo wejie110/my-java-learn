@@ -1,4 +1,6 @@
-package com.example.user.lwjuser.classlearn.emptyobj;
+package com.example.user.lwjuser.classlearn.emptyobj.person;
+
+import com.example.user.lwjuser.classlearn.emptyobj.Null;
 
 /**
  * @author wejie110

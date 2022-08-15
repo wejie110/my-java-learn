@@ -1,4 +1,4 @@
-package com.example.user.lwjuser.classlearn.emptyobj;
+package com.example.user.lwjuser.classlearn.emptyobj.person;
 
 public class Position {
     private String title;

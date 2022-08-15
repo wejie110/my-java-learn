@@ -1,4 +1,4 @@
-package com.example.user.lwjuser.classlearn.emptyobj;
+package com.example.user.lwjuser.classlearn.emptyobj.person;
 
 import java.util.ArrayList;
 
