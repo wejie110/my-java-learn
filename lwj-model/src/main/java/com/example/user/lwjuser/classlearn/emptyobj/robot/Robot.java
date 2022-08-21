@@ -14,8 +14,8 @@ public interface Robot {
             if(r instanceof Null){
                 System.out.println("[Null Robot]");
             }
-            System.out.println("robot name" + r.name());
-            System.out.println("robot model" + r.model());
+            System.out.println("robot name: " + r.name());
+            System.out.println("robot model: " + r.model());
             for (Operation operation :r.operations()){
                 System.out.println(operation.description());
                 operation.command();
