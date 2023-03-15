@@ -62,5 +62,24 @@ public class WildCards {
         Holder<? extends Long> bounded = new Holder<Long>();
         Holder<? extends Long> bounded2 = new Holder<>();
         Long lng = 1L;
+
+        rawArgs(raw,lng);
+        rawArgs(raw2,lng);
+        rawArgs(qualified,lng);
+        rawArgs(qualified2,lng);
+        rawArgs(unbounded,lng);
+        rawArgs(unbounded2,lng);
+        rawArgs(bounded,lng);
+        rawArgs(bounded2,lng);
+
+        unboundedArg(raw,lng);
+        unboundedArg(raw2,lng);
+        unboundedArg(qualified,lng);
+        unboundedArg(qualified2,lng);
+        unboundedArg(unbounded,lng);
+        unboundedArg(unbounded2,lng);
+        unboundedArg(bounded,lng);
+        unboundedArg(bounded2,lng);
+
     }
 }
